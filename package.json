@@ -1,0 +1,58 @@
+{
+  "name": "@embyth/prettier-config",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Prettier style guide for various personal projects",
+  "author": "Rostyslav Miniukov <miniukovrostyslav@gmail.com> (https://github.com/embyth)",
+  "license": "MIT",
+  "homepage": "https://github.com/embyth/prettier-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/embyth/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/embyth/prettier-config/issues"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.1.0"
+  },
+  "scripts": {
+    "clean:cache": "rimraf dist",
+    "clean:deps": "rimraf node_modules",
+    "clean": "pnpm run clean:cache && pnpm run clean:deps",
+    "lint": "prettier --ignore-path .gitignore --ignore-path .prettierignore --check .",
+    "lint:fix": "prettier --ignore-path .gitignore --ignore-path .prettierignore --write .",
+    "test": "prettier --check ./test",
+    "build": "pnpm run clean:cache && unbuild"
+  },
+  "peerDependencies": {
+    "prettier": "3.0.3"
+  },
+  "dependencies": {
+    "prettier": "3.0.3"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.7.1",
+    "@commitlint/config-conventional": "17.7.0",
+    "@embyth/prettier-config": "link:",
+    "devmoji": "2.3.0",
+    "husky": "8.0.3",
+    "rimraf": "5.0.1",
+    "typescript": "5.1.6",
+    "unbuild": "2.0.0"
+  }
+}
