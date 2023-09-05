@@ -34,8 +34,8 @@
     "clean:cache": "rimraf dist",
     "clean:deps": "rimraf node_modules",
     "clean": "pnpm run clean:cache && pnpm run clean:deps",
-    "lint": "prettier --ignore-path .gitignore --ignore-path .prettierignore --check .",
-    "lint:fix": "prettier --ignore-path .gitignore --ignore-path .prettierignore --write .",
+    "lint": "prettier --ignore-path .gitignore --ignore-path .prettierignore --check ./src",
+    "lint:fix": "prettier --ignore-path .gitignore --ignore-path .prettierignore --write ./src",
     "test": "prettier --check ./test",
     "build": "pnpm run clean:cache && unbuild"
   },
