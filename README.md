@@ -18,7 +18,7 @@ pnpm add --save-dev @embyth/prettier-config
 And reference it in your _.prettierrc.js_ file:
 
 ```js
-module.exports = require('@embyth/prettier-config')
+module.exports = require('@embyth/prettier-config');
 ```
 
 Or you can of course choose your preferred way of using configs:
@@ -57,19 +57,20 @@ module.exports = {
 
   // Add custom options bellow:
   useTabs: true,
-}
+};
 ```
 
 ## Notes
 
 ### Prettier version
 
-Versions of `prettier` prior to v1.17 did not feature the possibility to use a shared config via _package.json_. The way to do it is similar to when [extending](#extending), except that you can just export the config directly:
+Versions of `prettier` prior to v1.17 did not feature the possibility to use a shared config via _package.json_. The way
+to do it is similar to when [extending](#extending), except that you can just export the config directly:
 
 ```js
 // .prettierrc.js
 
-module.exports = require('@embyth/prettier-config')
+module.exports = require('@embyth/prettier-config');
 ```
 
 ## More
