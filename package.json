@@ -40,10 +40,10 @@
     "build": "pnpm run clean:cache && unbuild"
   },
   "peerDependencies": {
-    "prettier": "3.0.3"
+    "prettier": "3.2.4"
   },
   "dependencies": {
-    "prettier": "3.0.3"
+    "prettier": "3.2.4"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
