@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/embyth/prettier-config/compare/prettier-config-v1.0.0...prettier-config-v1.0.1) (2024-05-31)
+
+
+### Reverts
+
+* **ci:** 👷 pnpm node version field ([1a0a1f8](https://github.com/embyth/prettier-config/commit/1a0a1f8e6d0297644ab1ec7b9831efdc6648d78d))
+
 ## [1.0.1](https://github.com/embyth/prettier-config/compare/v1.0.0...v1.0.1) (2024-01-28)
 
 
