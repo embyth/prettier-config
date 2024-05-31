@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/embyth/prettier-config/compare/prettier-config-v1.0.1...prettier-config-v1.1.0) (2024-05-31)
+
+
+### Features
+
+* **test:** ✨ 🚨 added some test code ([94b9414](https://github.com/embyth/prettier-config/commit/94b9414469bac9eca88956ad7d612d082767403d))
+
 ## [1.0.1](https://github.com/embyth/prettier-config/compare/prettier-config-v1.0.0...prettier-config-v1.0.1) (2024-05-31)
 
 
