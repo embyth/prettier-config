@@ -10,6 +10,7 @@ runs:
     - name: Install pnpm
       uses: pnpm/action-setup@v2
       with:
+        node-version: 20
         version: latest
     - name: Set node
       uses: actions/setup-node@v4
