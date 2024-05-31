@@ -52,7 +52,7 @@
     "devmoji": "2.3.0",
     "husky": "9.0.6",
     "rimraf": "5.0.7",
-    "typescript": "5.3.3",
+    "typescript": "5.4.5",
     "unbuild": "2.0.0"
   }
 }
