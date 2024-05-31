@@ -60,3 +60,9 @@ export abstract class Foo implements MyInterface {
 }
 
 type RequestType = 'GET' | 'HEAD' | 'POST' | 'PUT' | 'OPTIONS' | 'CONNECT' | 'DELETE' | 'TRACE';
+
+const countUrlQuery = (query: string) => {
+  const url = new URL(query);
+
+  return url.searchParams.size;
+};
