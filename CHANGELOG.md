@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/embyth/prettier-config/compare/prettier-config-v1.1.0...prettier-config-v1.1.1) (2024-08-25)
+
+
+### Bug Fixes
+
+* **git:** made husky hooks executable on mac ([9516d05](https://github.com/embyth/prettier-config/commit/9516d05ad1371fb5bb42049dedf6182fc7df1bf7))
+
 ## [1.1.0](https://github.com/embyth/prettier-config/compare/prettier-config-v1.0.1...prettier-config-v1.1.0) (2024-05-31)
 
 
