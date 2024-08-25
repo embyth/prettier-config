@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       prettier:
-        specifier: 3.2.5
-        version: 3.2.5
+        specifier: 3.3.3
+        version: 3.3.3
     devDependencies:
       '@commitlint/cli':
         specifier: 19.4.0
@@ -1496,8 +1496,8 @@ packages:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3120,7 +3120,7 @@ snapshots:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
-  prettier@3.2.5: {}
+  prettier@3.3.3: {}
 
   pretty-bytes@6.1.1: {}
 
