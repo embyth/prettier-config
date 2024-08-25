@@ -14,7 +14,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: 19.4.0
-        version: 19.4.0(@types/node@20.12.13)(typescript@5.4.5)
+        version: 19.4.0(@types/node@20.12.13)(typescript@5.5.4)
       '@commitlint/config-conventional':
         specifier: 19.2.2
         version: 19.2.2
@@ -31,11 +31,11 @@ importers:
         specifier: 5.0.7
         version: 5.0.7
       typescript:
-        specifier: 5.4.5
-        version: 5.4.5
+        specifier: 5.5.4
+        version: 5.5.4
       unbuild:
         specifier: 2.0.0
-        version: 2.0.0(typescript@5.4.5)
+        version: 2.0.0(typescript@5.5.4)
 
 packages:
 
@@ -1657,8 +1657,8 @@ packages:
   ts-interface-checker@1.0.0:
     resolution: {integrity: sha512-yUeWbFBDiwPodNqrqpvQpGWheL6PvNu2/pVAb9yy2vzdkkflCgwVA4U2akByPCXzYTum3/5/nB92yKuiLpSo/Q==}
 
-  typescript@5.4.5:
-    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+  typescript@5.5.4:
+    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1868,11 +1868,11 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.6
       to-fast-properties: 2.0.0
 
-  '@commitlint/cli@19.4.0(@types/node@20.12.13)(typescript@5.4.5)':
+  '@commitlint/cli@19.4.0(@types/node@20.12.13)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.3.0
       '@commitlint/lint': 19.2.2
-      '@commitlint/load': 19.4.0(@types/node@20.12.13)(typescript@5.4.5)
+      '@commitlint/load': 19.4.0(@types/node@20.12.13)(typescript@5.5.4)
       '@commitlint/read': 19.4.0
       '@commitlint/types': 19.0.3
       execa: 8.0.1
@@ -1919,15 +1919,15 @@ snapshots:
       '@commitlint/rules': 19.0.3
       '@commitlint/types': 19.0.3
 
-  '@commitlint/load@19.4.0(@types/node@20.12.13)(typescript@5.4.5)':
+  '@commitlint/load@19.4.0(@types/node@20.12.13)(typescript@5.5.4)':
     dependencies:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/execute-rule': 19.0.0
       '@commitlint/resolve-extends': 19.1.0
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
-      cosmiconfig: 9.0.0(typescript@5.4.5)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.12.13)(cosmiconfig@9.0.0(typescript@5.4.5))(typescript@5.4.5)
+      cosmiconfig: 9.0.0(typescript@5.5.4)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.12.13)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -2364,21 +2364,21 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@20.12.13)(cosmiconfig@9.0.0(typescript@5.4.5))(typescript@5.4.5):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@20.12.13)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
       '@types/node': 20.12.13
-      cosmiconfig: 9.0.0(typescript@5.4.5)
+      cosmiconfig: 9.0.0(typescript@5.5.4)
       jiti: 1.21.0
-      typescript: 5.4.5
+      typescript: 5.5.4
 
-  cosmiconfig@9.0.0(typescript@5.4.5):
+  cosmiconfig@9.0.0(typescript@5.5.4):
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
     optionalDependencies:
-      typescript: 5.4.5
+      typescript: 5.5.4
 
   cross-spawn@7.0.3:
     dependencies:
@@ -2854,7 +2854,7 @@ snapshots:
 
   minipass@7.1.2: {}
 
-  mkdist@1.5.1(typescript@5.4.5):
+  mkdist@1.5.1(typescript@5.5.4):
     dependencies:
       autoprefixer: 10.4.19(postcss@8.4.38)
       citty: 0.1.6
@@ -2872,7 +2872,7 @@ snapshots:
       postcss-nested: 6.0.1(postcss@8.4.38)
       semver: 7.6.2
     optionalDependencies:
-      typescript: 5.4.5
+      typescript: 5.5.4
 
   mlly@1.7.0:
     dependencies:
@@ -3148,11 +3148,11 @@ snapshots:
     dependencies:
       glob: 10.4.1
 
-  rollup-plugin-dts@6.1.1(rollup@3.29.4)(typescript@5.4.5):
+  rollup-plugin-dts@6.1.1(rollup@3.29.4)(typescript@5.5.4):
     dependencies:
       magic-string: 0.30.10
       rollup: 3.29.4
-      typescript: 5.4.5
+      typescript: 5.5.4
     optionalDependencies:
       '@babel/code-frame': 7.24.6
 
@@ -3246,11 +3246,11 @@ snapshots:
 
   ts-interface-checker@1.0.0: {}
 
-  typescript@5.4.5: {}
+  typescript@5.5.4: {}
 
   ufo@1.5.3: {}
 
-  unbuild@2.0.0(typescript@5.4.5):
+  unbuild@2.0.0(typescript@5.5.4):
     dependencies:
       '@rollup/plugin-alias': 5.1.0(rollup@3.29.4)
       '@rollup/plugin-commonjs': 25.0.8(rollup@3.29.4)
@@ -3267,17 +3267,17 @@ snapshots:
       hookable: 5.5.3
       jiti: 1.21.0
       magic-string: 0.30.10
-      mkdist: 1.5.1(typescript@5.4.5)
+      mkdist: 1.5.1(typescript@5.5.4)
       mlly: 1.7.0
       pathe: 1.1.2
       pkg-types: 1.1.1
       pretty-bytes: 6.1.1
       rollup: 3.29.4
-      rollup-plugin-dts: 6.1.1(rollup@3.29.4)(typescript@5.4.5)
+      rollup-plugin-dts: 6.1.1(rollup@3.29.4)(typescript@5.5.4)
       scule: 1.3.0
       untyped: 1.4.2
     optionalDependencies:
-      typescript: 5.4.5
+      typescript: 5.5.4
     transitivePeerDependencies:
       - sass
       - supports-color
